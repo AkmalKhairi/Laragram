@@ -20,6 +20,7 @@ class PostsController extends Controller
 
         auth() -> user() -> post()->create($data);
 
+        /*Debug here*/
         \App\Post::create($data);
 
         dd(request()->all());
