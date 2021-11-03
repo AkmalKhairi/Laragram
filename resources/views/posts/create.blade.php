@@ -32,7 +32,7 @@
                     <input type="file" class="form-control-file" name="image" id="image">
 
                     @error('image')
-                    <strong>{{ $error->first('image') }}</strong>
+                    <strong>{{ $errors->first('image') }}</strong>
 
                     @enderror
                 </div>

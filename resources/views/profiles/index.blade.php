@@ -10,7 +10,7 @@
 
                 <div class="d-flex justify-content-between align-items-baseline">
                     <h1> {{$user->username}} </h1>
-                    <a href="https://">Add New Posts</a>
+                    <a href="\p\create">Add New Posts</a>
                 </div>
             <div class="d-flex">
             <div class="pr-5"><strong>3</strong> posts </div>
